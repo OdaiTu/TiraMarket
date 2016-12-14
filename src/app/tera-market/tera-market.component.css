@@ -1,0 +1,58 @@
+.content{
+    overflow: auto;
+}
+
+.content .personal {
+    overflow: hidden;
+    padding: 10px 10px 40px;
+    height: auto;
+    border: .5px solid #8DCA8F;
+    overflow: hidden;
+    margin-top: 25px;
+    background-color: #DDD;
+}
+
+.content .personal img {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+
+.content .personal .info-list{
+    padding: 0 10px;
+    list-style: none;
+
+}
+
+.content .personal .info-list li {
+    padding-top: 10px;
+    color: #511031;
+    font-size: 12px;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.content .personal .offers {
+    margin:5px auto 0;
+    display: block;
+    font-family: 'Cairo', sans-serif;
+}
+
+.content .category-items {
+    padding: 10px 0;
+    margin: 20px auto;
+    overflow: hidden;
+
+}
+
+.content .items-show{
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+@media (min-width: 767px) and (max-width: 922px) {
+
+
+}

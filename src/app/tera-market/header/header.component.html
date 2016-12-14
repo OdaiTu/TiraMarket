@@ -1,0 +1,61 @@
+<nav class="navbar" role="navigation" id="nav-main">
+  <div class="container">
+    <ul class="nav navbar-nav pull-left">
+      <li class="connect dropdown" tmDropdown>
+        <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+          <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+      <ul class="dropdown-menu dropdown-menu-notification">
+        <li><a><tm-notificationstruture></tm-notificationstruture></a></li>
+        <li><a><tm-notificationstruture></tm-notificationstruture></a></li>
+        <li><a><tm-notificationstruture></tm-notificationstruture></a></li>
+        <li><a><tm-notificationstruture></tm-notificationstruture></a></li>
+        <li><a><tm-notificationstruture></tm-notificationstruture></a></li>
+        <li style="padding: 0.3em 10.25em;background-color: #DDDDDD;border-bottom: 1px solid #000"><a>عرض الكل</a></li>
+      </ul>
+      </li>
+
+
+      <li class="connect dropdown" tmDropdown>
+        <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+        <ul class="dropdown-menu dropdown-menu-msg caret-up">
+          <li><a><tm-msg-structure></tm-msg-structure></a></li>
+          <li><a><tm-msg-structure></tm-msg-structure></a></li>
+          <li><a><tm-msg-structure></tm-msg-structure></a></li>
+          <li><a><tm-msg-structure></tm-msg-structure></a></li>
+          <li><a><tm-msg-structure></tm-msg-structure></a></li>
+          <li style="padding: 0.3em 10.25em;background-color: #DDDDDD;border-bottom: 1px solid #000"><a>عرض الكل</a></li>
+        </ul>
+      </li>
+
+
+      <li class="connect dropdown" tmDropdown>
+        <a class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </a>
+      <ul class="dropdown-menu">
+        <li><a>عروضي</a></li>
+        <li><a [routerLink]="['add-offer']">اضافة عرض جديد</a></li>
+        <li>
+          <hr></li>
+        <li role="separator" class="divider"></li>
+        <li><a>اعدادات</a></li>
+        <li>
+          <hr></li>
+        <li role="separator" class="divider"></li>
+        <li><a [routerLink]="['login']">تسجيل خروج</a></li>
+      </ul>
+      </li>
+
+    </ul>
+    <ul class="nav navbar-nav pull-right category" style="padding: 0">
+      <li routerLinkActive="active"><a [routerLink] = "['cars']">سيارات</a></li>
+      <li routerLinkActive="active"><a [routerLink] = "['immovables']">عقارات</a></li>
+      <li routerLinkActive="active"><a [routerLink] = "['electronic']">الكترونيات</a></li>
+      <li routerLinkActive="active"><a [routerLink] = "['furniture']">أثاث</a></li>
+      <li routerLinkActive="active"><a [routerLink] = "['animals']">حيوانات وطيور</a></li>
+      <li routerLinkActive="active"><a [routerLink] = "['commercial']">خدمات تجارية</a></li>
+      <li routerLinkActive="active"><a [routerLink] = "['others']">أخرى</a></li>
+    </ul>
+  </div>
+</nav>

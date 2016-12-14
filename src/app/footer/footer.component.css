@@ -1,0 +1,10 @@
+.footer{
+    background:#000;
+    border-top: 4px solid #8DCA8F;
+}
+
+.footer .footer-copy{
+    padding-top:20px;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+}

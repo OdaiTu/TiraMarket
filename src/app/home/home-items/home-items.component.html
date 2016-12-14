@@ -1,0 +1,14 @@
+<div class="home-items text-center">
+  <div class="container">
+    <div class="row">
+      <div class="head text-center">
+        <h1 class="item-head">بعض العروض</h1>
+        <hr>
+      </div>
+      <div class="itmes">
+        <tm-viewitemhome *ngFor="let item of items" [item] = "item" class="col-md-4 col-sm-6 col-xs-12">
+        </tm-viewitemhome>
+      </div>
+    </div>
+  </div>
+</div>

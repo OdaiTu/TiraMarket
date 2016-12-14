@@ -1,0 +1,18 @@
+img {
+
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px;
+    padding : 8px;
+    border: 2px solid #000;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    transition: transform .5s ease-in-out;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,60 @@
+.navbar {
+    min-height: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 4px solid #8DCA8F;
+    margin-bottom: 0px;
+}
+
+.nav {
+    display: block;
+    float: left;
+    margin: 7.5px -15px;
+}
+
+.navbar-header{
+    float: right;
+    padding-bottom: 0;
+}
+
+.navbar .navbar-header .navbar-brand{
+    font-family: 'Cairo', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: lightcoral;
+    line-height: 100%;
+}
+
+
+.nav li {
+    display: block;
+    float: right;
+    margin: auto;
+}
+
+
+.nav .cen a{
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+
+.nav li a {
+    color: #000;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+
+.nav .cen a:hover{
+    color : #8DCA8F;
+    background-color: #FFF;
+}
+
+.nav li a:hover {
+    color: #8DCA8F;
+    background-color: #FFF;
+}

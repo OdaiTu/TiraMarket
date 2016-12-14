@@ -1,0 +1,112 @@
+.view-product .product-name {
+  margin: 0 10px 30px 0;
+  color: #000;
+
+  font-weight: bold;
+}
+.view-product .gallery{
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  padding:30px;
+  background-color: #DDD;
+  overflow: auto;
+}
+
+.view-product .gallery .main-view {
+  width: 60%;
+  height:350px;
+  margin: 0 auto;
+}
+
+.view-product .gallery .list-imgs{
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  justify-content: center;
+  padding:5px;
+}
+
+.view-product .gallery .list-imgs .list-img-item{
+  height: 200px;
+  width:200px;
+  display: inline;
+}
+
+.view-product .information-holder{
+  padding:5px;
+}
+
+.view-product .information {
+  float: right;
+  margin: 20px auto;
+  color: #000;
+  font-family: 'Cairo', sans-serif;
+}
+
+.view-product .details-holder {
+  float:right;
+  margin: 25px 5px 5px;
+}
+
+.view-product .details-holder .details-const{
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+}
+
+.view-product .details {
+  float: right;
+  width: 100%;
+  padding:20px;
+  margin-right: 45px;
+  font-family: 'Cairo', sans-serif;
+  background-color: #DDD;
+  color: #000;
+}
+
+.view-product .new-comment{
+  display: none;
+}
+
+.view-product .new-comment .text-comment{
+  width: 80%;
+  display: block;
+  margin: auto;
+  overflow-y: auto;
+  resize: none;
+}
+.view-product .btn-const-add-comment{
+  cursor: pointer;
+}
+
+.view-product .new-comment .btn-add-comment{
+  display: block;
+  float: right;
+  margin : 10px 11% 10px 0;
+  padding:5px 15px;
+  cursor: pointer;
+  font-family: 'Cairo', sans-serif;
+
+}
+
+
+.view-product .comments-holder {
+  float: right;
+  margin: 5px;
+}
+
+.view-product .comments-holder .comments-const{
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+}
+
+.view-product .comments-holder .comments li{
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  color: #1a1a1a;
+  background-color: #DDD;
+  font-family: 'Cairo', sans-serif;
+}
+
+

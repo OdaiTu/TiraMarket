@@ -1,0 +1,26 @@
+.item{
+    border: 0.5px solid #511031;
+    padding : 5px;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+
+.item  img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.item .item-name {
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.item button {
+    display: block;
+    margin: 2px auto;
+    font-family: 'Cairo', sans-serif;
+}
